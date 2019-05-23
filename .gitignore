@@ -1,0 +1,4 @@
+backend/web/assets
+vendor/pvlg/yii2-language-switcher
+backend/runtime
+backend/runtime/logs/app.log

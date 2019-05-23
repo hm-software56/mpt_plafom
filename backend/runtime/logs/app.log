@@ -62621,3 +62621,469 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1558593325.5167
     'REQUEST_TIME' => 1558593325
 ]
+2019-05-23 09:31:18 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 09:31:17 [::1][22][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Xy6Gf4fezDW2IUpfmSEoGHjMR6XRINbhoRFfpl8m5vYOcc067KSoQexTABz1REduAJ0h1aVEh4TCVDyXOVSikA=='
+    'LoginForm' => [
+        'username' => 'admin@cyberia.la'
+        'password' => 'Da123!@#'
+    ]
+    'captcha' => 'bukaqo'
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    '_csrf' => 'b81d4252051a70471bd73f2f6f8e749e124b95f0590226e76811afca4f274aa7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Q_KEkzdtZrJCleovxQfptdQecEc1frDf\";}'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'b7ua1it3ebb9jko6rffrctcouo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => null
+    'setting' => backend\models\Setting#1
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__returnUrl' => '/index.php?r=content%2Fupdate&id=268'
+    '__captcha/site/captcha' => 'sugala'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558600281
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55917'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '209'
+    'HTTP_CONTENT_LENGTH' => '209'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; _csrf=b81d4252051a70471bd73f2f6f8e749e124b95f0590226e76811afca4f274aa7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q_KEkzdtZrJCleovxQfptdQecEc1frDf%22%3B%7D; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=b7ua1it3ebb9jko6rffrctcouo'
+    'REQUEST_TIME_FLOAT' => 1558596677.4954
+    'REQUEST_TIME' => 1558596677
+]
+2019-05-23 09:31:21 [::1][22][-][warning][yii\web\Session::init] Session is already started
+2019-05-23 09:31:22 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 09:31:21 [::1][22][-][info][application] $_GET = [
+    'r' => 'site/indexadmin'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'gjbc1sobfsv4ivnfercehtadhk'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__returnUrl' => '/index.php?r=content%2Fupdate&id=268'
+    '__captcha/site/captcha' => 'sugala'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558600281
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55923'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Findexadmin'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Findexadmin'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=gjbc1sobfsv4ivnfercehtadhk; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558596681.4285
+    'REQUEST_TIME' => 1558596681
+]
+2019-05-23 09:31:34 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 09:31:33 [::1][22][-][info][application] $_GET = [
+    'r' => 'content'
+    'type' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'gjbc1sobfsv4ivnfercehtadhk'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__returnUrl' => '/index.php?r=content%2Fupdate&id=268'
+    '__captcha/site/captcha' => 'sugala'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558600294
+    'type' => '5'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55952'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=content&type=5'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=content&type=5'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Findexadmin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=gjbc1sobfsv4ivnfercehtadhk; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558596693.9397
+    'REQUEST_TIME' => 1558596693
+]
+2019-05-23 09:31:43 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 09:33:49 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'fileinput' does not exist: F:\Projectweb\mpt_plafom\vendor\kartik-v\yii2-widget-fileinput\src/messages/la/fileinput.php
+2019-05-23 09:31:43 [::1][22][-][info][application] $_GET = [
+    'r' => 'content/update'
+    'id' => '226'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'gjbc1sobfsv4ivnfercehtadhk'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__returnUrl' => '/index.php?r=content%2Fupdate&id=268'
+    '__captcha/site/captcha' => 'sugala'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558600303
+    'type' => 5
+    'refImg' => 'XMXoicP6i883HwUFC7-10p'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55984'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=content%2Fupdate&id=226'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=content%2Fupdate&id=226'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content&type=5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=gjbc1sobfsv4ivnfercehtadhk; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558596703.1291
+    'REQUEST_TIME' => 1558596703
+]
