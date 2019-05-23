@@ -63087,3 +63087,2349 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1558596703.1291
     'REQUEST_TIME' => 1558596703
 ]
+2019-05-23 11:25:23 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:25:23 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:25:22 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    'r' => 'content/update'
+    'id' => '226'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61732'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=content%2Fupdate&id=226'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=content%2Fupdate&id=226'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558603523.055
+    'REQUEST_TIME' => 1558603523
+]
+2019-05-23 11:25:31 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:25:31 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:25:31 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '5ce66706ed8ec8.83405286'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61792'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcaptcha&v=5ce66706ed8ec8.83405286'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=5ce66706ed8ec8.83405286'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content%2Fupdate&id=226'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558603531.2638
+    'REQUEST_TIME' => 1558603531
+]
+2019-05-23 11:25:31 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:25:31 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:25:31 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    '1558603531443' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61794'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1558603531443'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1558603531443'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content%2Fupdate&id=226'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558603531.6412
+    'REQUEST_TIME' => 1558603531
+]
+2019-05-23 11:26:13 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:26:13 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:26:13 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    'r' => 'content/update'
+    'id' => '226'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61833'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=content%2Fupdate&id=226'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=content%2Fupdate&id=226'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558603573.1818
+    'REQUEST_TIME' => 1558603573
+]
+2019-05-23 11:26:14 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:26:14 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:26:14 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '5ce667356909b9.36719085'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61883'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcaptcha&v=5ce667356909b9.36719085'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=5ce667356909b9.36719085'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content%2Fupdate&id=226'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558603574.1166
+    'REQUEST_TIME' => 1558603574
+]
+2019-05-23 11:26:14 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:26:14 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:26:14 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    '1558603574323' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61887'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1558603574323'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1558603574323'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content%2Fupdate&id=226'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558603574.5228
+    'REQUEST_TIME' => 1558603574
+]
+2019-05-23 11:26:26 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:26:26 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:26:26 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61898'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558603586.2389
+    'REQUEST_TIME' => 1558603586
+]
+2019-05-23 11:26:27 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:26:27 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:26:27 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '5ce6674266c536.57211876'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61953'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcaptcha&v=5ce6674266c536.57211876'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=5ce6674266c536.57211876'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558603587.127
+    'REQUEST_TIME' => 1558603587
+]
+2019-05-23 11:26:27 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\InvalidConfigException] ReflectionException: Class pvlg\language\Language does not exist in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:431
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(431): ReflectionClass->__construct('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#10 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#11 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#12 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "pvlg\language\Language". in F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php:433
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(365): yii\di\Container->getDependencies('pvlg\\language\\L...')
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('pvlg\\language\\L...', Array, Array)
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('pvlg\\language\\L...', Array, Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(742): yii\di\ServiceLocator->get('lang', true)
+#5 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(313): yii\base\Module->get('lang')
+#6 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#7 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#8 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#9 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#10 F:\Projectweb\mpt_plafom\backend\web\index.php(17): yii\base\Application->__construct(Array)
+#11 {main}
+2019-05-23 11:26:27 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:26:27 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    '1558603587364' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61955'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1558603587364'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1558603587364'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558603587.4426
+    'REQUEST_TIME' => 1558603587
+]
+2019-05-23 11:46:00 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\web\Session::init] Session is already started
+2019-05-23 11:46:00 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\web\Session::init] Session is already started
+2019-05-23 11:46:00 [::1][-][5vgfg3e717u1ae9at5ige7p61t][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'type' of non-object in F:\Projectweb\mpt_plafom\backend\controllers\UserController.php:55
+Stack trace:
+#0 F:\Projectweb\mpt_plafom\backend\controllers\UserController.php(55): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'F:\\Projectweb\\m...', 55, Array)
+#1 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\UserController->beforeAction(Object(yii\base\InlineAction))
+#2 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#3 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user', Array)
+#4 F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 F:\Projectweb\mpt_plafom\backend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2019-05-23 11:46:00 [::1][-][5vgfg3e717u1ae9at5ige7p61t][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:45:59 [::1][-][5vgfg3e717u1ae9at5ige7p61t][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => null
+    'setting' => backend\models\Setting#1
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62951'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=user'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=user'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t'
+    'REQUEST_TIME_FLOAT' => 1558604759.6367
+    'REQUEST_TIME' => 1558604759
+]
+2019-05-23 11:46:10 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:46:10 [::1][-][-][info][application] $_GET = [
+    '1558604769785' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => null
+    'setting' => backend\models\Setting#1
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'weqefhf'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63013'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1558604769785'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1558604769785'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=user'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558604770.0752
+    'REQUEST_TIME' => 1558604770
+]
+2019-05-23 11:46:13 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:46:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => null
+    'setting' => backend\models\Setting#1
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'weqefhf'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63019'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=user'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558604773.5243
+    'REQUEST_TIME' => 1558604773
+]
+2019-05-23 11:46:23 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:46:23 [::1][-][-][info][application] $_GET = [
+    '1558604775033' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => null
+    'setting' => backend\models\Setting#1
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'weqefhf'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63089'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1558604775033'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1558604775033'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558604783.5026
+    'REQUEST_TIME' => 1558604783
+]
+2019-05-23 11:46:46 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:46:46 [::1][22][-][info][application] $_GET = [
+    'r' => 'site/login'
+    'log' => '1'
+]
+
+$_POST = [
+    '_csrf' => '1bnGUAZ0f9k_DHXd9d8AVj44sY3NSwe5kTDzkGMrT-i-0Zk8Sg4YvXFKDZq5iy0Rf0vzyfR5YfvQfKvBAm013A=='
+    'LoginForm' => [
+        'username' => 'admin@cyberia.la'
+        'password' => 'Da123!@#'
+    ]
+    'captcha' => 'weqefhf'
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_csrf' => '6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4\";}'
+    'PHPSESSID' => '5vgfg3e717u1ae9at5ige7p61t'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => null
+    'setting' => backend\models\Setting#1
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608407
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63110'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin&log=1'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Flogin&log=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '210'
+    'HTTP_CONTENT_LENGTH' => '210'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _csrf=6734685443aeebafc23eceff4ccc5a4579b614ca9c6dbc698f75cff217e2c327a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kh_lLzgdNFxGLT-GAsBD92fBALXQaFz4%22%3B%7D; PHPSESSID=5vgfg3e717u1ae9at5ige7p61t; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1558604806.3614
+    'REQUEST_TIME' => 1558604806
+]
+2019-05-23 11:46:48 [::1][22][-][warning][yii\web\Session::init] Session is already started
+2019-05-23 11:46:48 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:46:48 [::1][22][-][info][application] $_GET = [
+    'r' => 'site/indexadmin'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    '_gat_gtag_UA_107861244_1' => '1'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608408
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63115'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Findexadmin'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Findexadmin'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; _gat_gtag_UA_107861244_1=1; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604808.0233
+    'REQUEST_TIME' => 1558604808
+]
+2019-05-23 11:47:12 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:47:12 [::1][22][-][info][application] $_GET = [
+    'r' => 'content'
+    'type' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608432
+    'type' => '4'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63157'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=content&type=4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=content&type=4'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Findexadmin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604832.085
+    'REQUEST_TIME' => 1558604832
+]
+2019-05-23 11:47:35 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:47:35 [::1][22][-][info][application] $_GET = [
+    'r' => 'content'
+    'type' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608455
+    'type' => '2'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63213'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=content&type=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=content&type=2'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content&type=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604855.6069
+    'REQUEST_TIME' => 1558604855
+]
+2019-05-23 11:48:05 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:47:52 [::1][22][-][info][application] $_GET = [
+    'r' => 'content'
+    'type' => '7'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608484
+    'type' => '7'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63270'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=content&type=7'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=content&type=7'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content&type=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604876.8027
+    'REQUEST_TIME' => 1558604876
+]
+2019-05-23 11:48:07 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:48:07 [::1][22][-][info][application] $_GET = [
+    'r' => 'content'
+    'type' => '7'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608487
+    'type' => '7'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63280'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=content&type=7'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=content&type=7'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content&type=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604887.5444
+    'REQUEST_TIME' => 1558604887
+]
+2019-05-23 11:48:53 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:48:53 [::1][22][-][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608533
+    'type' => '7'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63359'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=user'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=user'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=content&type=7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604933.2075
+    'REQUEST_TIME' => 1558604933
+]
+2019-05-23 11:49:00 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:49:00 [::1][22][-][info][application] $_GET = [
+    'r' => 'menu'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608540
+    'type' => '7'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63387'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=menu'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=menu'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=user'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604940.318
+    'REQUEST_TIME' => 1558604940
+]
+2019-05-23 11:49:13 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:49:12 [::1][22][-][info][application] $_GET = [
+    'r' => 'menu/view'
+    'id' => '9'
+    '_' => '1558604942494'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608552
+    'type' => '7'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63419'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=menu%2Fview&id=9&_=1558604942494'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=menu%2Fview&id=9&_=1558604942494'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'ATZMSlglcixbDLPT0mKKr_2FQ595gEmy2MIy2qR7DVlMeBs4Nkg9eiFV4KLjJsXEkPZw9iy5e8qNrQWp_iJXGA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=menu'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604952.9038
+    'REQUEST_TIME' => 1558604952
+]
+2019-05-23 11:49:55 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:49:55 [::1][22][-][info][application] $_GET = [
+    'r' => 'menu/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608595
+    'type' => '7'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63458'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=menu%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=menu%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=menu'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558604995.3443
+    'REQUEST_TIME' => 1558604995
+]
+2019-05-23 11:50:08 [::1][22][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+2019-05-23 11:50:08 [::1][22][-][info][application] $_GET = [
+    'r' => 'menu'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    '_gid' => 'GA1.1.784181942.1558585368'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => 'kh2pdsfcphj561g3pmhrragico'
+    '_csrf' => '9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+    'currentUser' => backend\models\User#1
+    (
+        [current_password] => null
+        [new_password] => null
+        [new_password_repeat] => null
+        [enum_labels] => false
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 22
+            'username' => 'admin@cyberia.la'
+            'password' => '$2y$13$vibImJhsSDcbvEK0GB/nrOcFMjvhaGXbu8vkZ.BECFq5cYqF2XEGm'
+            'full_name' => 'Administrator'
+            'type' => 'Admin'
+            'status' => '1'
+            'created_at' => '2018-10-22'
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    'setting' => backend\models\Setting#2
+    (
+        [yii\db\BaseActiveRecord:_attributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_oldAttributes] => [
+            'id' => 1
+            'has_photo' => 0
+            'has_video' => 0
+            'has_slide' => 0
+            'has_social_media' => 1
+            'has_menu_left' => 0
+            'has_menu_right' => 0
+            'has_menu_bottom' => 0
+            'has_menu_top' => 1
+        ]
+        [yii\db\BaseActiveRecord:_related] => []
+        [yii\db\BaseActiveRecord:_relationsDependencies] => []
+        [yii\base\Model:_errors] => null
+        [yii\base\Model:_validators] => null
+        [yii\base\Model:_scenario] => 'default'
+        [yii\base\Component:_events] => []
+        [yii\base\Component:_eventWildcards] => []
+        [yii\base\Component:_behaviors] => []
+    )
+    '__captcha/site/captcha' => 'codldo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+    '__expire' => 1558608608
+    'type' => '7'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63491'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=menu'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=menu'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=user'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; _gid=GA1.1.784181942.1558585368; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=kh2pdsfcphj561g3pmhrragico; _csrf=9ceffe10563da52e213fa2b42664df17b23f90ea52fb816f3662a9afc8f85a63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWrnmOVzYSq1DOkms3iU92xUo7sZYZA%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1558605008.7704
+    'REQUEST_TIME' => 1558605008
+]

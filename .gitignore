@@ -3,3 +3,4 @@ vendor/pvlg/yii2-language-switcher
 backend/runtime
 backend/runtime/logs/app.log
 vendor/pvlg/yii2-language-switcher
+backend/runtime/logs/app.log
