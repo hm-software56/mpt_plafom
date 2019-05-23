@@ -1,0 +1,4 @@
+syntax: glob
+backend/runtime/
+backend/web/assets/
+vendor/bower/jquery-ui/themes/vader/images/animated-overlay.gif

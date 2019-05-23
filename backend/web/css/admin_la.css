@@ -1,0 +1,19 @@
+@font-face{
+    font-family:"Saysettha OT";
+    src:url(SAYSETT0.eot);
+    src: local("Saysettha OT"), url('SAYSETT0.TTF') format('truetype'); /*non IE */
+}
+html,
+body
+{
+    height: 100%;
+    font: normal 10pt "Saysettha OT",Helvetica,sans-serif !important;
+}
+
+p, div, td, tr, th, span, h1, h2, h3, h4, h5, a, li, ul{
+    font-family:"Saysettha OT",Helvetica,sans-serif;
+    word-wrap: break-word !important;
+}
+.sidebar-wrapper li{
+font-size: 14px !important;
+}

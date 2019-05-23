@@ -1,0 +1,62 @@
+.grid-view{
+    width: 100%;
+    overflow-x: auto;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 0.6em 0.6em 0.6em !important;
+    margin: 0 0 1.5em 0 !important;
+   
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto;
+    padding:0 10px;
+     margin-bottom: 5px !important;
+    border-bottom:none;
+}
+
+p, div, td, tr, th, span, h1, h2, h3, h4, h5, a, li, ul{
+    word-wrap: break-word !important;
+}
+
+#inner{
+/*    background: url("bg-1.jpg") no-repeat center center fixed;
+    background-size: cover;*/
+    background-color: #F6F3EC;
+}
+
+.breadcrumb{
+    background-color:transparent !important;
+    padding: 0px 0px !important;
+}
+
+#content{
+    margin:10px !important;
+}
+
+.panel-default > .panel-heading {
+    background-color: #fff;
+    border-top:1px solid blue;
+}
+
+.form-group label.control-label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.07143;
+    margin: 16px 0 0;
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity=0);
+  opacity: 0 !important;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+    background-color: transparent !important;
+}
