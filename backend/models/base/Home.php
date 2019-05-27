@@ -51,11 +51,11 @@ abstract class Home extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('models', 'ID'),
-            'name' => Yii::t('models', 'Name'),
-            'like' => Yii::t('models', 'Like'),
-            'photo' => Yii::t('models', 'Photo'),
-            'type_home_id' => Yii::t('models', 'Type Home ID'),
+            'id' => Yii::t('app', 'ID'),
+            'name' => Yii::t('app', 'Name'),
+            'like' => Yii::t('app', 'Like'),
+            'photo' => Yii::t('app', 'Photo'),
+            'type_home_id' => Yii::t('app', 'Type Home ID'),
         ];
     }
 

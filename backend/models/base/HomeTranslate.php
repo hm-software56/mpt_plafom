@@ -50,10 +50,10 @@ abstract class HomeTranslate extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('models', 'ID'),
-            'name' => Yii::t('models', 'Name'),
-            'language' => Yii::t('models', 'Language'),
-            'home_id' => Yii::t('models', 'Home ID'),
+            'id' => Yii::t('app', 'ID'),
+            'name' => Yii::t('app', 'Name'),
+            'language' => Yii::t('app', 'Language'),
+            'home_id' => Yii::t('app', 'Home ID'),
         ];
     }
 

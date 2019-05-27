@@ -72,7 +72,7 @@ foreach ($typhome as $typhome) {
     foreach ($homes as $home) {
         ?>
                 <div class="col-md-4">
-                    <div class="border-all">
+                    <div class="border-all" style="margin-bottom:5px;">
                         <?php
                         if (!empty($home->like)) {
                             ?>
@@ -80,7 +80,7 @@ foreach ($typhome as $typhome) {
                         <?php
                         }
                         ?>
-                            <img src="<?=Yii::$app->urlManager->baseUrl?>/images/download/<?=$home->photo?>" class="img-responsive img-center" style="height:172px;"/>
+                            <img src="<?=Yii::$app->urlManager->baseUrl?>/images/download/<?=$home->photo?>" class="img-responsive img-center img-rounded" style="height:172px;"/>
                             <?=$home->name?>
                             <?php
                         if (!empty($home->like)) {

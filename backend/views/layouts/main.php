@@ -15,6 +15,7 @@ use yii\data\Pagination;
 use backend\models\SocialMedia;
 use common\models\LoginForm;
 use yii\widgets\ActiveForm;
+use backend\models\Banner;
 
 AppAsset::register($this);
 ?>
@@ -72,7 +73,10 @@ AppAsset::register($this);
                     <a href="<?= Yii::$app->urlManager->baseUrl . "/index.php?r=site/indexadmin" ?>" style="color:white;font-weight: bold;"><?= Yii::t("app", "Admin Panel") ?></a>
                 </div>
             <?php } ?>
-            <img class="banner img-responsive" src="<?php echo Yii::$app->urlManager->baseUrl . "/"; ?>images/<?php echo Yii::$app->params["banner"]; ?>" style="width:100%;height:auto;"/>
+            <?php
+                $banner=Banner::find()->one();
+            ?>
+            <img class="banner img-responsive" src="<?php echo Yii::$app->urlManager->baseUrl . "/"; ?>images/<?=Yii::$app->params['downloadFilePath']?>/<?=$banner->photo_banner?>" style="width:100%;height:auto;"/>
         </div>
 
         <!-- Start header section -->
@@ -304,7 +308,7 @@ AppAsset::register($this);
                         <div class="col-md-12">
                             <div>
                                 <p style="color:white !important;text-align:center !important;font-size:11pt;margin:10px;"><?php echo Yii::t('app', "Copyright") ?> &copy; 2017<?php if (date('Y') != 2017) echo "-" . date('Y'); ?>
-                                    <?php echo Yii::t('app', 'MPT. All Rights Reserved.') ?><span ><?php echo Yii::t("app", "Designed and Developed by"); ?> <a href="http://cyberia.la/" target="_blank" class="footer-a" style="text-decoration: none;color:#5588D9;"><?php echo Yii::t("app", "CYBERIA") ?>.</a></span> <?php echo Yii::t("app", "Vientiane Lao P.D.R") ?></p>
+                                    <?=$banner->footer_text?></p>
                             </div>
                         </div>
                     </div>

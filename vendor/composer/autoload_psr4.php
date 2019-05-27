@@ -48,6 +48,8 @@ return array(
     'bigpaulie\\social\\share\\' => array($vendorDir . '/bigpaulie/yii2-social-share/src'),
     '\\pheme\\grid\\' => array($vendorDir . '/pheme/yii2-toggle-column'),
     'Zxing\\' => array($vendorDir . '/khanamiryan/qrcode-detector-decoder/lib'),
+    'Zelenin\\yii\\modules\\I18n\\' => array($vendorDir . '/zelenin/yii2-i18n-module'),
+    'Zelenin\\yii\\SemanticUI\\' => array($vendorDir . '/zelenin/yii2-semantic-ui'),
     'Symfony\\Polyfill\\Php72\\' => array($vendorDir . '/symfony/polyfill-php72'),
     'Symfony\\Polyfill\\Php70\\' => array($vendorDir . '/symfony/polyfill-php70'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),

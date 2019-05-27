@@ -2,6 +2,7 @@
 
 $config = [
     'components' => [
+
         'request' => [
             'cookieValidationKey' => '2UHCHR4fTqHQidJhfTq-0xn4289E-McV',
         ],

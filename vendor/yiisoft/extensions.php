@@ -295,4 +295,23 @@ return array (
       '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug/src',
     ),
   ),
+  'zelenin/yii2-semantic-ui' => 
+  array (
+    'name' => 'zelenin/yii2-semantic-ui',
+    'version' => '2.0.10.0',
+    'alias' => 
+    array (
+      '@Zelenin/yii/SemanticUI' => $vendorDir . '/zelenin/yii2-semantic-ui',
+    ),
+  ),
+  'zelenin/yii2-i18n-module' => 
+  array (
+    'name' => 'zelenin/yii2-i18n-module',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@Zelenin/yii/modules/I18n' => $vendorDir . '/zelenin/yii2-i18n-module',
+    ),
+    'bootstrap' => 'Zelenin\\yii\\modules\\I18n\\Bootstrap',
+  ),
 );

@@ -3,6 +3,8 @@
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'modules' => [
+        
+        'i18n' => Zelenin\yii\modules\I18n\Module::className(),
         'rbac' => [
             'class' => 'yii2mod\rbac\Module',
             //Some controller property maybe need to change.
@@ -26,6 +28,11 @@ return [
         ],
         // Rbac
         'i18n' => [
+            'class' => Zelenin\yii\modules\I18n\components\I18N::className(),
+            'languages' => ['la', 'en'],
+            
+        ],
+       /* 'i18n' => [
             'translations' => [
                 'yii2mod.rbac' => [
                     'class' => 'yii\i18n\PhpMessageSource',
@@ -33,7 +40,7 @@ return [
                 ],
             // ...
             ],
-        ],
+        ],*/
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
             'defaultRoles' => ['guest', 'user'],

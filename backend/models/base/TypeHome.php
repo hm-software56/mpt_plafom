@@ -48,9 +48,9 @@ abstract class TypeHome extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('models', 'ID'),
-            'name' => Yii::t('models', 'Name'),
-            'status' => Yii::t('models', 'Status'),
+            'id' => Yii::t('app', 'ID'),
+            'name' => Yii::t('app', 'Name'),
+            'status' => Yii::t('app', 'Status'),
         ];
     }
 

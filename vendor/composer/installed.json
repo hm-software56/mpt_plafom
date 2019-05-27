@@ -677,6 +677,30 @@
         "installation-source": "dist"
     },
     {
+        "name": "bower-asset/semantic",
+        "version": "2.4.1",
+        "version_normalized": "2.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Semantic-Org/Semantic-UI.git",
+            "reference": "a753d5b7841ab6adbe6d8a3b40086b452f0ba715"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Semantic-Org/Semantic-UI/zipball/a753d5b7841ab6adbe6d8a3b40086b452f0ba715",
+            "reference": "a753d5b7841ab6adbe6d8a3b40086b452f0ba715",
+            "shasum": null
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.8"
+        },
+        "type": "bower-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
         "name": "bower-asset/typeahead.js",
         "version": "v0.11.1",
         "version_normalized": "0.11.1.0",
@@ -4380,6 +4404,106 @@
         "keywords": [
             "extension",
             "image",
+            "yii2"
+        ]
+    },
+    {
+        "name": "zelenin/yii2-i18n-module",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zelenin/yii2-i18n-module.git",
+            "reference": "4b0eb4c711778c6ae282d89a4d33a786184ef8a0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zelenin/yii2-i18n-module/zipball/4b0eb4c711778c6ae282d89a4d33a786184ef8a0",
+            "reference": "4b0eb4c711778c6ae282d89a4d33a786184ef8a0",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "~2",
+            "zelenin/yii2-semantic-ui": "*"
+        },
+        "time": "2015-03-07T00:00:00+00:00",
+        "type": "yii2-extension",
+        "extra": {
+            "bootstrap": "Zelenin\\yii\\modules\\I18n\\Bootstrap"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Zelenin\\yii\\modules\\I18n\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aleksandr Zelenin",
+                "email": "aleksandr@zelenin.me",
+                "homepage": "http://zelenin.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "Yii2 i18n (internalization) module makes the translation of your application so simple",
+        "homepage": "https://github.com/zelenin/yii2-i18n-module",
+        "keywords": [
+            "i18n",
+            "translation",
+            "translations",
+            "yii2"
+        ],
+        "abandoned": true
+    },
+    {
+        "name": "zelenin/yii2-semantic-ui",
+        "version": "2.0.10",
+        "version_normalized": "2.0.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zelenin/yii2-semantic-ui.git",
+            "reference": "3e5e599b047832aa5c1358bf8a67703dd93ede84"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zelenin/yii2-semantic-ui/zipball/3e5e599b047832aa5c1358bf8a67703dd93ede84",
+            "reference": "3e5e599b047832aa5c1358bf8a67703dd93ede84",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/semantic": "~2",
+            "yiisoft/yii2": "~2"
+        },
+        "time": "2017-02-06T00:06:06+00:00",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zelenin\\yii\\SemanticUI\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aleksandr Zelenin",
+                "email": "aleksandr@zelenin.me",
+                "homepage": "http://zelenin.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "Semantic UI extension for Yii2",
+        "homepage": "https://github.com/zelenin/yii2-semantic-ui",
+        "keywords": [
+            "semantic",
+            "semantic ui",
+            "widgets",
             "yii2"
         ]
     }

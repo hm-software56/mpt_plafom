@@ -34,7 +34,8 @@
         "yurkinx/yii2-image": "dev-master",
         "kartik-v/yii2-password": "@dev",
         "kartik-v/yii2-grid": "@dev",
-        "2amigos/qrcode-library": "~1.1"
+        "2amigos/qrcode-library": "~1.1",
+        "zelenin/yii2-i18n-module": "dev-master"
         
     },
     "require-dev": {

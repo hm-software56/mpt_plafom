@@ -77,6 +77,9 @@ AppAssetAdmin::register($this);
                         <?php if ($user->checkAccess($user->type, "/user", "index") == 1) { ?>
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=user"; ?>"><i class="fa fa-user"></i> <?= Yii::t('app', 'Users') ?></a></li>
                         <?php } ?>
+                        <?php if ($user->checkAccess($user->type, "/banner", "index") == 1) { ?>
+                            <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=banner/update&id=1"; ?>"><i class="fa fa-user"></i> <?= Yii::t('app', 'Manage Banner') ?></a></li>
+                        <?php } ?>
                         <?php if ($user->checkAccess($user->type, "/menu", "index") == 1) { ?>
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=menu"; ?>"><i class="fa fa-th-list"></i>  <?= Yii::t('app', 'Menus') ?></a></li>
                         <?php } ?>

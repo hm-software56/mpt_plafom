@@ -35,7 +35,8 @@ return [
         ]
     ],
     'components' => [
-        'i18n' => [
+
+       /* 'i18n' => [
             'translations' => [
                 '*' => [
                     'class'          => 'yii\i18n\PhpMessageSource',
@@ -46,7 +47,7 @@ return [
                     ],
                 ],
             ],
-        ],
+        ],*/
         'qr' => [
             'class' => '\Da\QrCode\Component\QrCodeComponent',
             // ... you can configure more properties of the component here

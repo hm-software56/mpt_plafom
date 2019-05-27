@@ -9,8 +9,8 @@ class ComposerStaticInit3016fa24987ddd09e3c1d5ad316da28e
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
-        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
@@ -94,6 +94,8 @@ class ComposerStaticInit3016fa24987ddd09e3c1d5ad316da28e
         'Z' => 
         array (
             'Zxing\\' => 6,
+            'Zelenin\\yii\\modules\\I18n\\' => 25,
+            'Zelenin\\yii\\SemanticUI\\' => 23,
         ),
         'S' => 
         array (
@@ -305,6 +307,14 @@ class ComposerStaticInit3016fa24987ddd09e3c1d5ad316da28e
         'Zxing\\' => 
         array (
             0 => __DIR__ . '/..' . '/khanamiryan/qrcode-detector-decoder/lib',
+        ),
+        'Zelenin\\yii\\modules\\I18n\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zelenin/yii2-i18n-module',
+        ),
+        'Zelenin\\yii\\SemanticUI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zelenin/yii2-semantic-ui',
         ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
