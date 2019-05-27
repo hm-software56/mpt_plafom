@@ -152,9 +152,9 @@ AppAssetAdmin::register($this);
                         <?php if ($user->checkAccess($user->type, "/slider", "index") == 1 && $setting->has_slide) { ?>
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=slider"; ?>"><i class="fa fa-sliders"></i> <?= Yii::t('app', 'Sliders') ?></a></li>
                         <?php } ?>
-                        <?php if ($user->checkAccess($user->type, "/social-media", "index") == 1 && $setting->has_social_media) { ?>
+                       <!-- <?php if ($user->checkAccess($user->type, "/social-media", "index") == 1 && $setting->has_social_media) { ?>
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=social-media"; ?>"><i class="fa fa-facebook"></i> <?= Yii::t('app', 'Manage  Sidebar') ?></a></li>
-                        <?php } ?>
+                        <?php } ?>-->
                         <?php if ($user->checkAccess($user->type, "/issue-category", "index") == 1) { ?>
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=issue-category"; ?>"><i class="fa fa-warning"></i> <?= Yii::t('app', 'Issue Categories') ?></a></li>
                         <?php } ?>

@@ -38,7 +38,7 @@ abstract class Home extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'photo', 'type_home_id'], 'required'],
+            [['name', 'type_home_id'], 'required'],
             [['type_home_id'], 'integer'],
             [['name', 'like', 'photo'], 'string', 'max' => 255],
             [['type_home_id'], 'exist', 'skipOnError' => true, 'targetClass' => \backend\models\TypeHome::className(), 'targetAttribute' => ['type_home_id' => 'id']]

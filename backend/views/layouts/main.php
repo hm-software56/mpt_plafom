@@ -239,12 +239,12 @@ AppAsset::register($this);
                             <?php
                             if(Yii::$app->controller->action->id=="index")
                             {
-                                $hm="967px;";
+                                $hm="0px;";
                             }else{
-                                $hm="1310px;";
+                                $hm="300px;";
                             }
                             ?>
-                                <div class="col-md-9 col-lg-9 col-xs-12 col-sm-12 margdiv">
+                                <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 margdiv">
                                     <div class="aa-blog-content heightauto" style="box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15); min-height:<?=$hm?>">
                                         <div style="margin-bottom:10px;min-height:40px;background-color:#5588D9 !important;">
                                             <?php
@@ -286,103 +286,6 @@ AppAsset::register($this);
                                         <p>&nbsp;<br/></p>
                                     </div>
                                 </div>
-                                
-                                <?php
-                                $rights=SocialMedia::find()->where(['status'=>'1'])->orderBy('sort ASC')->all();
-                                $i=0;
-                                foreach ($rights as $right) {
-                                    $i++;
-                                    if($i==1)
-                                    {
-                                        $h="height:330px;";
-                                    }else{
-                                        $h="height:260px;";
-                                    }
-                                    ?>
-                                <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 margdiv">
-                                    <div style="width: 100%;box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);">
-                                        <div style=" text-align:center !important;float:left;font-size:18px !important;color:white;font-weight: normal;background-color:#5588D9 !important;padding:5px 5px 5px 5px; max-width:100%;width:100%;">
-                                            <span><?php
-                                            if(Yii::$app->language=="en")
-                                            {
-                                                echo $right->title;
-                                            }else{
-                                                echo $right->icon ;
-                                            }
-                                             
-                                             ?></span>
-                                        </div>
-                                        <div style="clear:both;"></div>
-                                        <div class="sidebar-widget-new" align="center">
-                                            <a href="<?=$right->link?>">
-                                                <img src="<?=Yii::$app->urlManager->baseUrl?>/images/download/<?=$right->photo?>" style="<?=$h?>" class="img-responsive"/>                                           
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <?php
-                                }
-                                ?>
-                                <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 margdiv" >
-                                    <div style="width: 100%;box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);">
-                                        <div style="text-align:center !important; float:left;font-size:18px !important;color:white;font-weight: normal;background-color:#5588D9 !important;padding:5px 5px 5px 5px; max-width:100%;width:100%;">
-                                            <span><?= Yii::t("app", "Meeting Registration"); ?></span>
-                                        </div>
-                                        <div style="clear:both;"></div>
-                                        <div class="sidebar-widget-new " style="padding:5px;" >
-                                        <?php
-                                            $model = new LoginForm();
-                                            if(Yii::$app->session['username'])
-                                            {
-                                                $autofocus=true;
-                                            }else{
-                                                $autofocus=false;
-                                            }
-                                        ?>
-                                        <?php $form = ActiveForm::begin(['id' => 'login-form','action'=>['site/login','log'=>true]]); ?>
-                                        <?= $form->field($model, 'username')->textInput(['value'=>Yii::$app->session['username'],'autofocus' =>  $autofocus])->label(Yii::t('app','Username')) ?>
-                                        <?= $form->field($model, 'password')->passwordInput(['value'=>Yii::$app->session['password'],])->label(Yii::t('app','Password'))  ?>
-                                        <?php
-                                        echo \yii\captcha\Captcha::widget([
-                                            'name' => 'captcha',
-                                            'captchaAction' => 'site/captcha',
-                                            'options' => [
-                                                'placeholder' => 'Enter Captcha'
-                                                   , 'Class' => ' col-md-6 col-xs-12 col-sm-12'
-                                                   , 'style' => 'margin-top: 10px;    margin-bottom: 15px;    display: block;
-                                                   height: 34px;
-                                                   padding: 6px 12px;
-                                                   font-size: 14px;
-                                                   line-height: 1.42857143;
-                                                   color: #555;
-                                                   background-color: #fff;
-                                                   background-image: none;
-                                                   border: 1px solid #ccc;
-                                                   border-radius: 4px;
-                                                   -webkit-box-shadow: '
-                                           ]
-                                        ]);
-                                        unset(Yii::$app->session['username']);
-                                        unset(Yii::$app->session['password']);
-                                        ?>
-                                        <div class="col-md-12" style="color:red">
-                                        <?php
-                                            if(\Yii::$app->session->hasFlash('errorcaptcha'))
-                                            {
-                                                echo \Yii::$app->session->getFlash('errorcaptcha');
-                                            }
-                                        ?>
-                                        </div>
-                                        <div class="form-group">
-                                        
-                                        <div align="right">
-                                        <?= Html::submitButton('<span class="glyphicon glyphicon-log-in"></span> ' . Yii::t('app', "Login"), ['class' => 'btn btn-primary btn-sm', 'name' => 'login-button']) ?></div>
-                                        </div>
-                                        <?php ActiveForm::end(); ?>
-                                        </div>
-                                    </div>
-                                </div>
-                                
                             </div>
                         </div>
                     </div>
