@@ -100,12 +100,7 @@ AppAsset::register($this);
                             <!-- Left nav -->
                             <ul class="nav navbar-nav floatright" id="topmenu">
                                 <?php
-                                if (Yii::$app->language == Yii::$app->params["multiSecondLang"]) {
-                                    $subQuery = backend\models\MenuTranslate::find()->where(['is not', 'name', NULL])->andWhere(['!=', 'name', ""])->andWhere(['=', 'language', Yii::$app->params["codeSecondLang"]])->select('menu_id');
-                                    $menus = backend\models\Menu::find()->localized(Yii::$app->language)->where(['is', 'menu_id', NULL])->andWhere(['top' => 1])->andWhere(['in', 'id', $subQuery])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
-                                } else {
-                                    $menus = backend\models\Menu::find()->localized(Yii::$app->language)->where(['is', 'menu_id', NULL])->andWhere(['top' => 1])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
-                                }
+                                    $menus = backend\models\Menu::find()->localized()->where(['is', 'menu_id', NULL])->andWhere(['top' => 1])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
                                 foreach ($menus as $menu) {
                                     $link = "index.php?r=site/index";
                                     if (substr($menu->link, 0, 4) == 'http') {
@@ -117,11 +112,9 @@ AppAsset::register($this);
                                             $link = Yii::$app->urlManager->baseUrl . '/' . $menu->link;
                                         }
                                     }
-                                    if (Yii::$app->language == Yii::$app->params["multiSecondLang"]) {
-                                        $menus_sub = backend\models\Menu::find()->localized(Yii::$app->language)->where(['menu_id' => $menu->id])->andWhere(['in', 'id', $subQuery])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
-                                    } else {
-                                        $menus_sub = backend\models\Menu::find()->localized(Yii::$app->language)->where(['menu_id' => $menu->id])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
-                                    }
+                                    
+                                        $menus_sub = backend\models\Menu::find()->localized()->where(['menu_id' => $menu->id])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
+                                   
                                     if (!empty($menus_sub)) {
                                         ?>
                                         <li>
@@ -139,11 +132,8 @@ AppAsset::register($this);
                                                             $link = Yii::$app->urlManager->baseUrl . '/' . $menu_sub->link;
                                                         }
                                                     }
-                                                    if (Yii::$app->language == Yii::$app->params["multiSecondLang"]) {
-                                                        $menus_sub_sub = backend\models\Menu::find()->localized(Yii::$app->language)->where(['menu_id' => $menu_sub->id])->andWhere(['in', 'id', $subQuery])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
-                                                    } else {
-                                                        $menus_sub_sub = backend\models\Menu::find()->localized(Yii::$app->language)->where(['menu_id' => $menu_sub->id])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
-                                                    }
+                                                        $menus_sub_sub = backend\models\Menu::find()->localized()->where(['menu_id' => $menu_sub->id])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
+                                                    
                                                     if (!empty($menus_sub_sub)) {
                                                         ?>
                                                         <li>
@@ -161,11 +151,8 @@ AppAsset::register($this);
                                                                             $link = Yii::$app->urlManager->baseUrl . '/' . $menu_sub_sub->link;
                                                                         }
                                                                     }
-                                                                    if (Yii::$app->language == Yii::$app->params["multiSecondLang"]) {
-                                                                        $menus_sub_sub_sub = backend\models\Menu::find()->localized(Yii::$app->language)->where(['menu_id' => $menu_sub_sub->id])->andWhere(['status' => 1])->andWhere(['in', 'id', $subQuery])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
-                                                                    } else {
-                                                                        $menus_sub_sub_sub = backend\models\Menu::find()->localized(Yii::$app->language)->where(['menu_id' => $menu_sub_sub->id])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
-                                                                    }
+                                                                        $menus_sub_sub_sub = backend\models\Menu::find()->localized()->where(['menu_id' => $menu_sub_sub->id])->andWhere(['status' => 1])->orderBy(['sort' => SORT_ASC, 'id' => SORT_ASC])->all();
+                                                                    
                                                                     if (!empty($menus_sub_sub_sub)) {
                                                                         ?>
                                                                         <li>

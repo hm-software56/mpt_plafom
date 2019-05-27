@@ -58,12 +58,7 @@ AppAssetAdmin::register($this);
         ?>
         <div class="wrapper">
             <div class="sidebar" data-color="blue" data-image="<?php echo Yii::$app->urlManager->baseUrl . '/admin-theme/assets/img/sidebar-1.jpg'; ?>">
-                <!--
-        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
-            Tip 2: you can also add an image using data-image tag
-
-                -->
-
+             
                 <div class="logo">
                     <a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=site/indexadmin"; ?>" class="simple-text">
                         <?= Yii::$app->params["nameProject"] . " " . Yii::t('app', 'ADMIN PANEL') ?>
@@ -73,8 +68,6 @@ AppAssetAdmin::register($this);
 
                 <div class="sidebar-wrapper">
                     <ul class="nav" id="menu">
-
-                        <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=site/index"; ?>"><i class="fa fa-backward text-aqua"></i> <?= Yii::t('app', 'Back to Website Page'); ?></a></li>
                         <?php if ($user->checkAccess($user->type, "/setting", "update") == 1) { ?>
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=setting/update&id=" . Yii::$app->params["settingId"]; ?>"><i class="fa fa-gears"></i> <?= Yii::t('app', 'Update Setting') ?></a></li>
                         <?php } ?>
@@ -88,7 +81,10 @@ AppAssetAdmin::register($this);
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=menu"; ?>"><i class="fa fa-th-list"></i>  <?= Yii::t('app', 'Menus') ?></a></li>
                         <?php } ?>
                         <?php if ($user->checkAccess($user->type, "/content-category", "index") == 1) { ?>
-                            <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=content-category"; ?>"><i class="fa fa-book"></i> <?= Yii::t('app', 'Content Categories') ?></a></li>
+                            <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=content-category"; ?>"><i class="fa fa-book"></i> <?= Yii::t('app', 'Manage Content Categories') ?></a></li>
+                        <?php } ?>
+                        <?php if ($user->checkAccess($user->type, "/home", "index") == 1) { ?>
+                            <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=home"; ?>"><i class="fa fa-book"></i> <?= Yii::t('app', 'Manage Home') ?></a></li>
                         <?php } ?>
                         <?php if ($user->checkAccess($user->type, "/content", "index") == 1) { 
                                 ?>
@@ -97,7 +93,7 @@ AppAssetAdmin::register($this);
                             if (count($types) > 0) {
                                 ?>
                                 <?php
-                                $arr_type=[];
+                              /*  $arr_type=[];
                                 if($user->type=="Activation")
                                 {
                                     $arr_type=[2];
@@ -109,13 +105,13 @@ AppAssetAdmin::register($this);
                                 foreach ($types as $type) {
                                     $arr_type[]=$type->id;
                                 }
-                                }
+                                }*/
                                 foreach ($types as $type) {
-                                    if (in_array($type->id,$arr_type)) {
+                                  //  if (in_array($type->id,$arr_type)) {
                                         ?>
                                     <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=content&type=" . $type->id; ?>"><i class="fa fa-newspaper-o"></i> <?= Yii::t('app', 'Manage') . " " . $type->title; ?></a></li>
                                 <?php
-                                    }
+                                  //  }
                                 } ?>
                                 </li>
                             <?php } ?>
@@ -125,7 +121,7 @@ AppAssetAdmin::register($this);
                             $types = backend\models\ContentCategory::find()->localized()->where(['status' => 1])->andWhere(['is_legal_type' => 1])->orderBy(['id' => SORT_ASC])->all();
                             if (count($types) > 0 ) {
                                 
-                                $arr2_type=[];
+                               /* $arr2_type=[];
                                 if($user->type=="Knowledgebase")
                                 {
                                     $arr2_type=[14,19,20];
@@ -134,15 +130,15 @@ AppAssetAdmin::register($this);
                                 foreach ($types as $type) {
                                     $arr2_type[]=$type->id;
                                 }
-                                }
+                                }*/
                                 ?>
                                 <?php
                                 foreach ($types as $type) { 
-                                    if (in_array($type->id, $arr2_type)) {
+                                    //if (in_array($type->id, $arr2_type)) {
                                         ?>
                                     <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=content&type=" . $type->id; ?>"><i class="fa fa-anchor"></i> <?= Yii::t('app', 'Manage') . " " . $type->title; ?></a></li>
                                 <?php
-                                    }
+                                  //  }
                                 } ?>
                                 </li>
                             <?php } ?>
@@ -157,7 +153,7 @@ AppAssetAdmin::register($this);
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=slider"; ?>"><i class="fa fa-sliders"></i> <?= Yii::t('app', 'Sliders') ?></a></li>
                         <?php } ?>
                         <?php if ($user->checkAccess($user->type, "/social-media", "index") == 1 && $setting->has_social_media) { ?>
-                            <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=social-media"; ?>"><i class="fa fa-facebook"></i> <?= Yii::t('app', 'Manage  Home Right') ?></a></li>
+                            <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=social-media"; ?>"><i class="fa fa-facebook"></i> <?= Yii::t('app', 'Manage  Sidebar') ?></a></li>
                         <?php } ?>
                         <?php if ($user->checkAccess($user->type, "/issue-category", "index") == 1) { ?>
                             <li><a href="<?php echo Yii::$app->urlManager->baseUrl . "/index.php?r=issue-category"; ?>"><i class="fa fa-warning"></i> <?= Yii::t('app', 'Issue Categories') ?></a></li>

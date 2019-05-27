@@ -5,6 +5,8 @@ use yii\data\Pagination;
 use backend\models\Content;
 use yii\helpers\Url;
 use backend\models\ContentCategory;
+use backend\models\TypeHome;
+use backend\models\Home;
 
 $this->title = Yii::t('app', 'ການ​ເຄື່ອ​ນໄ​ຫວ');
 ?>
@@ -56,101 +58,43 @@ if (count($news) == 0) {
     <?php
 }
 ?>
+<?php
+$typhome=TypeHome::find()->localized()->where(['status'=>1])->all();
+foreach ($typhome as $typhome) {
+    ?>
 <div>
     <div class="aa-blog-content heightauto">
         <div style="margin-bottom:10px;min-height:40px;background-color:#5588D9 !important; font-size:18px; color:#ffffff;padding:5px; text-align:center;">
-        <?=Yii::t('app','ບໍ​ລິ​ການ')?>
+        <?=$typhome->name?>
         </div>
         <?php
-            $services=Content::find()->localized()->where(['content_category_id'=>9])->all();
-            foreach ($services as $service) {
-                ?>
+            $homes=Home::find()->localized()->where(['type_home_id'=>$typhome->id])->all();
+    foreach ($homes as $home) {
+        ?>
                 <div class="col-md-4">
                     <div class="border-all">
                         <?php
-                        if(!empty($service->keywords)) ///// keywords in service is URL
-                        {
+                        if (!empty($home->like)) {
                             ?>
-                            <a href="<?=$service->keywords?>" target="_blank">
-                            <?php
-                        }else{
-                            ?>
-                            <a href="<?=Yii::$app->urlManager->baseUrl?>/index.php?r=site/detail&id=<?=$service->id?>">
-                            <?php
+                        <a href="<?=Yii::$app->urlManager->baseUrl?>/<?=$home->like?>">
+                        <?php
                         }
                         ?>
-                        
-                            <img src="<?=Yii::$app->urlManager->baseUrl?>/images/download/<?=$service->photo?>" class="img-responsive img-center" style="height:172px;"/>
-                            <?=$service->title?>
+                            <img src="<?=Yii::$app->urlManager->baseUrl?>/images/download/<?=$home->photo?>" class="img-responsive img-center" style="height:172px;"/>
+                            <?=$home->name?>
+                            <?php
+                        if (!empty($home->like)) {
+                            ?>
                         </a>
+                        <?php
+                        }
+                        ?>
                     </div>
                 </div>
         <?php
-            }
-        ?>
+    } ?>
     </div>
 </div>
-                                            
-<div>
-    <div class="aa-blog-content heightauto">
-        <div style="margin-bottom:10px;min-height:40px;background-color:#5588D9 !important; font-size:18px; color:#ffffff;padding:5px; text-align:center;">
-        <?=Yii::t('app','ແອ​ກະ​ສານ​ເຜິຍ​ແຜ່')?>
-        </div>
-        <div class="col-md-4">
-            <div class="border-all">
-                <a href="<?=Yii::$app->urlManager->baseUrl?>/index.php?r=site/contents&id=4">
-                    <img src="<?=Yii::$app->urlManager->baseUrl?>/images/law.jpg" class="img-responsive img-circle img-center" style="height:172px;"/>
-                    <?=Yii::t('app','ກົດ​ໝາຍ')?>
-                </a>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="border-all">
-                <a href="<?=Yii::$app->urlManager->baseUrl?>/index.php?r=site/contents&id=5">
-                    <img src="<?=Yii::$app->urlManager->baseUrl?>/images/damlat.jpg" class="img-responsive img-circle img-center" style="height:172px;"/>           
-                    <?=Yii::t('app','ດຳ​ລັດ')?>
-                </a>
-            </div>
-        
-        </div>
-        <div class="col-md-4">
-            <div class="border-all">
-                <a href="<?=Yii::$app->urlManager->baseUrl?>/index.php?r=site/contents&id=7">
-                    <img src="<?=Yii::$app->urlManager->baseUrl?>/images/notice.jpg" class="img-responsive img-circle img-center" style="height:172px;"/>
-                    <?=Yii::t('app','ແຈ້ງ​ການ')?>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-      
-<div>
-    <div class="aa-blog-content heightauto">
-        <div style="margin-bottom:10px;min-height:40px;background-color:#5588D9 !important; font-size:18px; color:#ffffff;padding:5px; text-align:center;">
-        <?=Yii::t('app','​ຄັງ​ຄວາມ​ຮູ້')?>
-        </div>
-        <?php
-            $baseknowlegs=ContentCategory::find()->localized()->where(['in','id',[14,19,20]])->orderBy('id ASC')->all();
-            foreach ($baseknowlegs as $baseknowleg) {
-                if($baseknowleg->id==14)
-                {
-                    $img="knowlege_n.jpg";
-                }elseif($baseknowleg->id==19){
-                    $img="knowlege_p.jpg";
-                }else{
-                    $img="knowlege_g.jpg";
-                }
-                ?>
-                <div class="col-md-4">
-                    <a href="<?=Yii::$app->urlManager->baseUrl?>/index.php?r=site/contents&id=<?=$baseknowleg->id?>">
-                        <div class="border-all">
-                            <img src="<?=Yii::$app->urlManager->baseUrl?>/images/<?=$img?>" class="img-responsive img-circle img-center" style="height:172px;"/>
-                            <?= \yii\helpers\StringHelper::truncate($baseknowleg->title, 40, '...', 'UTF-8', true);?>
-                        </div>
-                    </a>
-                </div>
-        <?php
-            }
-        ?>
-    </div>
-</div>
+<?php
+}
+?>
