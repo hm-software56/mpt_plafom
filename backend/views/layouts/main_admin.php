@@ -199,6 +199,9 @@ AppAssetAdmin::register($this);
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-right">
                                 <?php if (count(Yii::$app->params['languages']) > 1) { ?>
+                                    <li>
+                                        <?= Html::a('<i class="fa fa-globe"></i> ' .Yii::t('app','Source Code Translations'), ['/i18n']) ?>
+                                    </li>
                                     <li class="dropdown">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                             <i class="fa fa-language"></i> <i class="fa fa-caret-down"></i>

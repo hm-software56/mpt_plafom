@@ -314,7 +314,6 @@ class ContentController extends Controller
 
     public function actionUploadAjax()
     {
-        echo "sssssss";exit;
         $this->Uploads(true);
     }
 
@@ -332,7 +331,6 @@ class ContentController extends Controller
     private function Uploads($isAjax = false)
     {
         if (Yii::$app->request->isPost) {
-
             $images = UploadedFile::getInstancesByName('upload_ajax');
             if ($images) {
 

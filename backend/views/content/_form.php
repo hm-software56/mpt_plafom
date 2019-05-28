@@ -260,9 +260,10 @@ use yii\jui\DatePicker;
                     'pluginOptions' => [
                         'overwriteInitial' => false,
                         'initialPreviewShowDelete' => true,
+                        'encodeUrl'=>false,
                         'initialPreview' => $initialPreview,
                         'initialPreviewConfig' => $initialPreviewConfig,
-                        'uploadUrl' => Url::to(['/content/upload-ajax']),
+                        'uploadUrl' => Url::toRoute(['/content/upload-ajax']),
                         'uploadExtraData' => [
                             'ref' => $model->ref,
                         ],

@@ -9,7 +9,7 @@ return [
     'downloadFilePath' => 'download',
     'defaultLang' => 'la',
     'settingId' => 1,
-    'nameProject' => 'MPT',
+    'nameProject' => Yii::t('app','G-Web'),
     'imgProject' => 'banner.png',
     'nbSubmenus' => 1,
     'labelContentAdd1' => Yii::t('app', 'Additional Field 1'),

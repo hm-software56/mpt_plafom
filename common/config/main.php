@@ -30,6 +30,11 @@ return [
         'i18n' => [
             'class' => Zelenin\yii\modules\I18n\components\I18N::className(),
             'languages' => ['la', 'en'],
+            'translations' => [
+                'app' => [
+                    'class' => yii\i18n\DbMessageSource::className()
+                ]
+            ]
             
         ],
        /* 'i18n' => [
