@@ -5,8 +5,10 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=mpt_pf_db',
+            //'dsn' => 'mysql:host=localhost;dbname=gweb_db',
             'username' => 'root',
             'password' => 'Da123!@#',
+           // 'password' => 'cbr@2018#',
             'charset' => 'utf8',
         ],
         'mailer' => [
