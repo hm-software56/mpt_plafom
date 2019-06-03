@@ -51,12 +51,12 @@ class UserController extends Controller
             }
             Yii::$app->session["setting"] = $setting;
         }
-        $getuser=User::find()->where(['id'=>Yii::$app->user->id])->one();
+        /*$getuser=User::find()->where(['id'=>Yii::$app->user->id])->one();
         if (in_array($getuser->type, Yii::$app->params['type_user_register'])) {
             $this->layout = 'main_admin_register'; //your layout name
-        }else{
+        }else{*/
             $this->layout = 'main_admin'; //your layout name
-        }
+       // }
         
         return parent::beforeAction($action);
     }
