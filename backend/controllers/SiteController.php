@@ -169,8 +169,6 @@ class SiteController extends Controller
         } else if (isset($_POST['captcha'])) {
             \Yii::$app->getSession()->setFlash('errorcaptcha', 'Code/Username/Password incorrect.');
         }
-
-
         return $this->render('forgetpassword', [
                 'model' => $model,
         ]);

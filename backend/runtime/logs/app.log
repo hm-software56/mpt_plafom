@@ -48010,3 +48010,447 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1559543299.8389
     'REQUEST_TIME' => 1559543299
 ]
+2019-06-05 06:11:22 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:15 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59901'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1559707875.7227
+    'REQUEST_TIME' => 1559707875
+]
+2019-06-05 06:11:23 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59911'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1559707883.2724
+    'REQUEST_TIME' => 1559707883
+]
+2019-06-05 06:11:28 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:27 [::1][-][-][info][application] $_GET = [
+    '1559707887741' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => '7fb59so375q6ac6ema62j00ksd'
+    '_csrf' => '4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo\";}'
+    '_gid' => 'GA1.1.436379132.1559707886'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59965'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1559707887741'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1559707887741'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=7fb59so375q6ac6ema62j00ksd; _csrf=4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo%22%3B%7D; _gid=GA1.1.436379132.1559707886; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1559707887.8802
+    'REQUEST_TIME' => 1559707887
+]
+2019-06-05 06:11:31 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:31 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => '7fb59so375q6ac6ema62j00ksd'
+    '_csrf' => '4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo\";}'
+    '_gid' => 'GA1.1.436379132.1559707886'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59968'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=7fb59so375q6ac6ema62j00ksd; _csrf=4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo%22%3B%7D; _gid=GA1.1.436379132.1559707886; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1559707891.3341
+    'REQUEST_TIME' => 1559707891
+]
+2019-06-05 06:11:32 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:32 [::1][-][-][info][application] $_GET = [
+    '1559707892510' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => '7fb59so375q6ac6ema62j00ksd'
+    '_csrf' => '4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo\";}'
+    '_gid' => 'GA1.1.436379132.1559707886'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60021'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1559707892510'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1559707892510'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=7fb59so375q6ac6ema62j00ksd; _csrf=4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo%22%3B%7D; _gid=GA1.1.436379132.1559707886; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1559707892.5445
+    'REQUEST_TIME' => 1559707892
+]
+2019-06-05 06:11:35 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:34 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => '7fb59so375q6ac6ema62j00ksd'
+    '_csrf' => '4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo\";}'
+    '_gid' => 'GA1.1.436379132.1559707886'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60024'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=7fb59so375q6ac6ema62j00ksd; _csrf=4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo%22%3B%7D; _gid=GA1.1.436379132.1559707886; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1559707894.9993
+    'REQUEST_TIME' => 1559707894
+]
+2019-06-05 06:11:36 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:36 [::1][-][-][info][application] $_GET = [
+    '1559707896150' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => '7fb59so375q6ac6ema62j00ksd'
+    '_csrf' => '4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo\";}'
+    '_gid' => 'GA1.1.436379132.1559707886'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60077'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1559707896150'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1559707896150'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=7fb59so375q6ac6ema62j00ksd; _csrf=4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo%22%3B%7D; _gid=GA1.1.436379132.1559707886; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1559707896.1877
+    'REQUEST_TIME' => 1559707896
+]
+2019-06-05 06:11:38 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:38 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => '7fb59so375q6ac6ema62j00ksd'
+    '_csrf' => '4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo\";}'
+    '_gid' => 'GA1.1.436379132.1559707886'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60080'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=7fb59so375q6ac6ema62j00ksd; _csrf=4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo%22%3B%7D; _gid=GA1.1.436379132.1559707886; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1559707898.5221
+    'REQUEST_TIME' => 1559707898
+]
+2019-06-05 06:11:39 [::1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: F:\Projectweb\mpt_plafom\vendor\yiisoft\yii2/messages/la/yii.php
+    in F:\Projectweb\mpt_plafom\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:177
+    in F:\Projectweb\mpt_plafom\backend\views\site\index.php:62
+    in F:\Projectweb\mpt_plafom\backend\controllers\SiteController.php:72
+2019-06-05 06:11:39 [::1][-][-][info][application] $_GET = [
+    '1559707899470' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1527151963.1532314005'
+    'language' => '9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a:2:{i:0;s:8:\"language\";i:1;s:3:\"Lao\";}'
+    'PHPSESSID' => '7fb59so375q6ac6ema62j00ksd'
+    '_csrf' => '4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo\";}'
+    '_gid' => 'GA1.1.436379132.1559707886'
+    '_gat_gtag_UA_107861244_1' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'language' => 'Lao'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Projectweb\\mpt_plafom\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60134'
+    'SERVER_SOFTWARE' => 'PHP 7.2.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/undefined?1559707899470'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Projectweb\\mpt_plafom\\backend\\web\\index.php'
+    'PATH_INFO' => '/undefined'
+    'PHP_SELF' => '/index.php/undefined'
+    'QUERY_STRING' => '1559707899470'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,lo;q=0.8,th;q=0.7'
+    'HTTP_COOKIE' => '_ga=GA1.1.1527151963.1532314005; language=9c55ef8b358811a6e5d32c29796a2f95c9fac484944d876c98eaa4b208746187a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A3%3A%22Lao%22%3B%7D; PHPSESSID=7fb59so375q6ac6ema62j00ksd; _csrf=4afa8f962abca2865ba821b678a368a68e9b000f607de0032771405d96e0a106a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZlBXL37dY62xrk17rJQv7gF3ckmVEAfo%22%3B%7D; _gid=GA1.1.436379132.1559707886; _gat_gtag_UA_107861244_1=1'
+    'REQUEST_TIME_FLOAT' => 1559707899.5065
+    'REQUEST_TIME' => 1559707899
+]
