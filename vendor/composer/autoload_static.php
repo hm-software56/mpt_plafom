@@ -63,6 +63,7 @@ class ComposerStaticInit3016fa24987ddd09e3c1d5ad316da28e
             'kartik\\grid\\' => 12,
             'kartik\\file\\' => 12,
             'kartik\\dialog\\' => 14,
+            'kartik\\color\\' => 13,
             'kartik\\base\\' => 12,
             'kartik\\alert\\' => 13,
         ),
@@ -243,6 +244,10 @@ class ComposerStaticInit3016fa24987ddd09e3c1d5ad316da28e
         'kartik\\dialog\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-dialog/src',
+        ),
+        'kartik\\color\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-colorinput/src',
         ),
         'kartik\\base\\' => 
         array (

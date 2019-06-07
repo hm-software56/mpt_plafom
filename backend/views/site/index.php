@@ -7,8 +7,10 @@ use yii\helpers\Url;
 use backend\models\ContentCategory;
 use backend\models\TypeHome;
 use backend\models\Home;
+use backend\models\Banner;
 
 $this->title = Yii::t('app', 'ການ​ເຄື່ອ​ນໄ​ຫວ');
+$banner=Banner::find()->one();
 ?>
 
 <?php
@@ -64,7 +66,7 @@ foreach ($typhome as $typhome) {
     ?>
 <div>
     <div class="aa-blog-content heightauto">
-        <div style="margin-bottom:10px;min-height:40px;background-color:#5588D9 !important; font-size:18px; color:#ffffff;padding:5px; text-align:center;">
+        <div style="margin-bottom:10px;min-height:40px;background-color:<?=$banner->bg_title?> !important; font-size:18px; color:#ffffff;padding:5px; text-align:center;">
         <?=$typhome->name?>
         </div>
         <?php

@@ -12,6 +12,9 @@ use Yii;
  * @property integer $id
  * @property string $photo_banner
  * @property string $footer_text
+ * @property string $bg_title
+ * @property string $bg_menu
+ * @property string $bg_footer
  * @property string $aliasModel
  */
 abstract class Banner extends \yii\db\ActiveRecord
@@ -33,9 +36,9 @@ abstract class Banner extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['footer_text'], 'required'],
+            [['footer_text', 'bg_title', 'bg_menu', 'bg_footer'], 'required'],
             [['photo_banner'], 'string', 'max' => 45],
-            [['footer_text'], 'string', 'max' => 255]
+            [['footer_text', 'bg_title', 'bg_menu', 'bg_footer'], 'string', 'max' => 255]
         ];
     }
 
@@ -45,9 +48,12 @@ abstract class Banner extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('app', 'ID'),
-            'photo_banner' => Yii::t('app', 'Photo Banner'),
-            'footer_text' => Yii::t('app', 'Footer Text'),
+            'id' => 'ID',
+            'photo_banner' => 'Photo Banner',
+            'footer_text' => 'Footer Text',
+            'bg_title' => 'Bg Title',
+            'bg_menu' => 'Bg Menu',
+            'bg_footer' => 'Bg Footer',
         ];
     }
 

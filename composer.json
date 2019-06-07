@@ -35,7 +35,8 @@
         "kartik-v/yii2-password": "@dev",
         "kartik-v/yii2-grid": "@dev",
         "2amigos/qrcode-library": "~1.1",
-        "zelenin/yii2-i18n-module": "dev-master"
+        "zelenin/yii2-i18n-module": "dev-master",
+        "kartik-v/yii2-widget-colorinput": "*"
         
     },
     "require-dev": {

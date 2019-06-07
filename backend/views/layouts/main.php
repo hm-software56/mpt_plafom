@@ -80,8 +80,21 @@ AppAsset::register($this);
         </div>
 
         <!-- Start header section -->
-        <section id="menu">
-            <div class="container">
+        <section id="menu" style="background-color:<?=$banner->bg_menu?> !important;border-bottom: 3px solid <?=$banner->bg_menu?> !important;">
+        <style>
+            #menu .menu-area .navbar-default .navbar-nav li .first:hover {
+                 background:yellow !important; 
+            }
+
+            #menu .menu-area .navbar-default .navbar-nav li .first {
+                background: <?=$banner->bg_menu?> repeat scroll 0 0 !important;
+            }
+            .activemenu, .active {
+                background:red none repeat scroll 0 0 !important;
+                color: white !important;
+            }
+        </style>    
+        <div class="container">
                 <div class="menu-area">
                     <!-- Navbar -->
                     <div class="navbar navbar-default" role="navigation">
@@ -250,11 +263,11 @@ AppAsset::register($this);
                             ?>
                                 <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 margdiv">
                                     <div class="aa-blog-content heightauto" style="box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15); min-height:<?=$hm?>">
-                                        <div style="margin-bottom:10px;min-height:40px;background-color:#5588D9 !important;">
+                                        <div style="margin-bottom:10px;min-height:40px;background-color:<?=$banner->bg_title?> !important;">
                                             <?php
                                             $maxwidth = "100%;border-top-right-radius: 10px;";
                                             ?>
-                                            <div style="text-align:center !important;float:center;font-size:18px !important;color:white;font-weight: normal;background-color:#5588D9 !important;padding:5px 5px 5px 5px; max-width:<?= $maxwidth ?>width:auto;">
+                                            <div style="text-align:center !important;float:center;font-size:18px !important;color:white;font-weight: normal;background-color:<?=$banner->bg_title?> !important;padding:5px 5px 5px 5px; max-width:<?= $maxwidth ?>width:auto;">
                                                 <span><?= $this->title; ?></span>
                                             </div>
                                             <div style="clear:both;"></div>
@@ -300,9 +313,9 @@ AppAsset::register($this);
 
 
         <!-- footer -->
-        <footer id="aa-footer">
+        <footer id="aa-footer" style="border-top: 0px solid <?=$banner->bg_footer?> !important;">
             <!-- footer-bottom -->
-            <div class="aa-footer-bottom" style="background-color: #062A5A !important;">
+            <div class="aa-footer-bottom" style="border-top: 0px solid <?=$banner->bg_footer?> !important; background-color:<?=$banner->bg_footer?> !important;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
