@@ -14,6 +14,8 @@ use Yii;
  * @property string $footer_text
  * @property string $bg_title
  * @property string $bg_menu
+ * @property string $bg_menu_focus
+ * @property string $bg_menu_active
  * @property string $bg_footer
  * @property string $aliasModel
  */
@@ -36,9 +38,9 @@ abstract class Banner extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['footer_text', 'bg_title', 'bg_menu', 'bg_footer'], 'required'],
+            [['footer_text', 'bg_title', 'bg_menu', 'bg_menu_focus', 'bg_menu_active', 'bg_footer'], 'required'],
             [['photo_banner'], 'string', 'max' => 45],
-            [['footer_text', 'bg_title', 'bg_menu', 'bg_footer'], 'string', 'max' => 255]
+            [['footer_text', 'bg_title', 'bg_menu', 'bg_menu_focus', 'bg_menu_active', 'bg_footer'], 'string', 'max' => 255]
         ];
     }
 
@@ -53,6 +55,8 @@ abstract class Banner extends \yii\db\ActiveRecord
             'footer_text' => 'Footer Text',
             'bg_title' => 'Bg Title',
             'bg_menu' => 'Bg Menu',
+            'bg_menu_focus' => 'Bg Menu Focus',
+            'bg_menu_active' => 'Bg Menu Active',
             'bg_footer' => 'Bg Footer',
         ];
     }

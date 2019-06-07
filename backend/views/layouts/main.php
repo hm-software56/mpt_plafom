@@ -83,15 +83,20 @@ AppAsset::register($this);
         <section id="menu" style="background-color:<?=$banner->bg_menu?> !important;border-bottom: 3px solid <?=$banner->bg_menu?> !important;">
         <style>
             #menu .menu-area .navbar-default .navbar-nav li .first:hover {
-                 background:yellow !important; 
+                 background:<?=$banner->bg_menu_focus?> !important; 
             }
-
+            #menu .menu-area .navbar-default .navbar-nav .dropdown-menu li a:hover, #menu .menu-area .navbar-default .navbar-nav .dropdown-menu li a:focus {
+                background-color: <?=$banner->bg_menu_focus?> !important; 
+            }
             #menu .menu-area .navbar-default .navbar-nav li .first {
                 background: <?=$banner->bg_menu?> repeat scroll 0 0 !important;
             }
             .activemenu, .active {
-                background:red none repeat scroll 0 0 !important;
+                background:<?=$banner->bg_menu_active?> none repeat scroll 0 0 !important;
                 color: white !important;
+            }
+            .btn-search {
+                background-color: <?=$banner->bg_menu_focus?> !important; 
             }
         </style>    
         <div class="container">

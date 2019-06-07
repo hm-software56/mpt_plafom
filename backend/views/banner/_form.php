@@ -17,18 +17,30 @@ use kartik\color\ColorInput;
          $url = \Yii::$app->request->BaseUrl . '/images/' . Yii::$app->params['downloadFilePath'] . '/' . $model->photo_banner;
          echo  Html::img($url, [ 'class' => 'img-responsive']);
     ?>
-    <?= $form->field($model, 'bg_menu')->widget(ColorInput::classname(), [
-    'options' => ['placeholder' => ''],
-    ]); ?>
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'bg_menu')->widget(ColorInput::classname(), ['options' => ['placeholder' => ''],]); ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'bg_menu_focus')->widget(ColorInput::classname(), ['options' => ['placeholder' => ''],]); ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'bg_menu_active')->widget(ColorInput::classname(), ['options' => ['placeholder' => ''],]); ?>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <?= $form->field($model, 'bg_title')->widget(ColorInput::classname(), [
+            'options' => ['placeholder' => ''],
+            ]); ?>
+        </div>
+        <div class="col-md-6">
+            <?= $form->field($model, 'bg_footer')->widget(ColorInput::classname(), [
+        'options' => ['placeholder' => ''],
+        ]); ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'bg_title')->widget(ColorInput::classname(), [
-    'options' => ['placeholder' => ''],
-    ]); ?>
-
-    <?= $form->field($model, 'bg_footer')->widget(ColorInput::classname(), [
-    'options' => ['placeholder' => ''],
-    ]); ?>
-    
     <?= $form->field($model, 'footer_text')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
