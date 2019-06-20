@@ -1,0 +1,11 @@
+SSH IP address: 43.252.244.164:5980
+User: user/ Password: T0day@2018
+User: root/Password: T0day@2018
+
+https://www.kdnuggets.com/2018/09/object-detection-image-classification-yolo.html
+https://github.com/pjreddie/darknet/blob/master/README.md
+https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64
+https://www.techtalkthai.com/10-pre-trained-deep-learning-models-in-computer-vision/
+https://www.youtube.com/watch?v=7FyPNrBhUcQ
+
+https://www.youtube.com/watch?v=3-tnFVmkftk

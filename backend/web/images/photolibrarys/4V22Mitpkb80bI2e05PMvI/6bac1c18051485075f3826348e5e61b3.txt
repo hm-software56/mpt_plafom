@@ -1,0 +1,4 @@
+
+SSH IP address: 43.252.244.164:5980
+User: user/ Password: T0day@2018
+User: root/Password: T0day@2018

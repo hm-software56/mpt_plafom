@@ -1,0 +1,4 @@
+1. add notify doc in aftter click read is hidden
+2. date is tru time is incorrect set server setup datetim,
+3. add code_in to form out affter choose copoy data in form out
+4. add small collunm indoc gridview indx code and other

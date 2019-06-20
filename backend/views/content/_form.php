@@ -258,7 +258,7 @@ use yii\jui\DatePicker;
                     'name' => 'upload_ajax[]',
                     'options' => ['multiple' => true],
                     'pluginOptions' => [
-                        'overwriteInitial' => false,
+                        'overwriteInitial' => true,
                         'initialPreviewShowDelete' => true,
                         'encodeUrl'=>false,
                         'initialPreview' => $initialPreview,

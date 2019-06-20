@@ -1,0 +1,17 @@
+1. Go to download appserve :https://www.appserv.org/ and install 
+1.1 Went you install set password:Da123!@#
+2. After installed open web browser then write URL:http://localhost
+2.1 After that click menu phpmyaddmin then enter username:root , password:Da123!@#
+2.2 After login create database:pos_db 
+2.3 goto import and 'choose file' then open folder software pos -> database and
+    select file pos_db
+3. Then scroll down Click button go and wait untel done
+4. Copy soffware pos and past to C:\appserv\www\  
+4. After past open web browser run url: http://localhost/pos/web
+------- good luck and in join -------
+
+Key:023118088585621621910311820
+username:daxiong
+password:da123
+
+if have any question whatsapp me:2055045770
